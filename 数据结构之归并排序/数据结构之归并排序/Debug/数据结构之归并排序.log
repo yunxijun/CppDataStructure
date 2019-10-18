@@ -1,0 +1,15 @@
+﻿  源.cpp
+c:\users\s2318\documents\visual studio 2015\projects\数据结构之归并排序\数据结构之归并排序\源.cpp(32): error C2059: 语法错误:“=”
+  c:\users\s2318\documents\visual studio 2015\projects\数据结构之归并排序\数据结构之归并排序\源.cpp(53): note: 参见对正在编译的函数 模板 实例化“void MergePass<int>(T *,T *,const int,const int)”的引用
+          with
+          [
+              T=int
+          ]
+c:\users\s2318\documents\visual studio 2015\projects\数据结构之归并排序\数据结构之归并排序\源.cpp(32): error C2059: 语法错误:“)”
+c:\users\s2318\documents\visual studio 2015\projects\数据结构之归并排序\数据结构之归并排序\源.cpp(34): error C2059: 语法错误:“;”
+c:\users\s2318\documents\visual studio 2015\projects\数据结构之归并排序\数据结构之归并排序\源.cpp(36): error C2059: 语法错误:“if”
+c:\users\s2318\documents\visual studio 2015\projects\数据结构之归并排序\数据结构之归并排序\源.cpp(38): error C2059: 语法错误:“else”
+c:\users\s2318\documents\visual studio 2015\projects\数据结构之归并排序\数据结构之归并排序\源.cpp(40): error C2059: 语法错误:“}”
+c:\users\s2318\documents\visual studio 2015\projects\数据结构之归并排序\数据结构之归并排序\源.cpp(40): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(991): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(991): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)

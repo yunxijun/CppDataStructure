@@ -1,0 +1,15 @@
+﻿  main.cpp
+c:\users\s2318\documents\visual studio 2015\projects\数据结构之哈希映射\数据结构之哈希映射\linearmap.h(19): warning C4018: “<”: 有符号/无符号不匹配
+  c:\users\s2318\documents\visual studio 2015\projects\数据结构之哈希映射\数据结构之哈希映射\linearmap.h(17): note: 编译类 模板 成员函数“int LinearMap<std::string,int>::get(const Key &)”时
+          with
+          [
+              Key=std::string
+          ]
+  c:\users\s2318\documents\visual studio 2015\projects\数据结构之哈希映射\数据结构之哈希映射\main.cpp(23): note: 参见对正在编译的函数 模板 实例化“int LinearMap<std::string,int>::get(const Key &)”的引用
+          with
+          [
+              Key=std::string
+          ]
+  c:\users\s2318\documents\visual studio 2015\projects\数据结构之哈希映射\数据结构之哈希映射\main.cpp(18): note: 参见对正在编译的类 模板 实例化“LinearMap<std::string,int>”的引用
+  数据结构之哈希映射.vcxproj -> C:\Users\S2318\Documents\Visual Studio 2015\Projects\数据结构之哈希映射\Debug\数据结构之哈希映射.exe
+  数据结构之哈希映射.vcxproj -> C:\Users\S2318\Documents\Visual Studio 2015\Projects\数据结构之哈希映射\Debug\数据结构之哈希映射.pdb (Full PDB)

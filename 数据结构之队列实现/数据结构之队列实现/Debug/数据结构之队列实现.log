@@ -1,0 +1,23 @@
+﻿  main.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2372): warning C4996: 'std::copy::_Unchecked_iterators::_Deprecate': Call to 'std::copy' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2372): note: 参见“std::copy::_Unchecked_iterators::_Deprecate”的声明
+  c:\users\s2318\documents\visual studio 2015\projects\数据结构之队列实现\数据结构之队列实现\queen.h(78): note: 参见对正在编译的函数 模板 实例化“_OutIt std::copy<T*,T*>(_InIt,_InIt,_OutIt)”的引用
+          with
+          [
+              _OutIt=int *,
+              T=int,
+              _InIt=int *
+          ]
+  c:\users\s2318\documents\visual studio 2015\projects\数据结构之队列实现\数据结构之队列实现\queen.h(63): note: 编译类 模板 成员函数“void Queue<int>::Push(const T &)”时
+          with
+          [
+              T=int
+          ]
+  c:\users\s2318\documents\visual studio 2015\projects\数据结构之队列实现\数据结构之队列实现\main.cpp(9): note: 参见对正在编译的函数 模板 实例化“void Queue<int>::Push(const T &)”的引用
+          with
+          [
+              T=int
+          ]
+  c:\users\s2318\documents\visual studio 2015\projects\数据结构之队列实现\数据结构之队列实现\main.cpp(8): note: 参见对正在编译的类 模板 实例化“Queue<int>”的引用
+  数据结构之队列实现.vcxproj -> C:\Users\S2318\Documents\Visual Studio 2015\Projects\数据结构之队列实现\Debug\数据结构之队列实现.exe
+  数据结构之队列实现.vcxproj -> C:\Users\S2318\Documents\Visual Studio 2015\Projects\数据结构之队列实现\Debug\数据结构之队列实现.pdb (Full PDB)

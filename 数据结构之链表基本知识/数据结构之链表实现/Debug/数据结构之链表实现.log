@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (数据结构之链表实现.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+  数据结构之链表实现.vcxproj -> C:\Users\S2318\Documents\Visual Studio 2015\Projects\数据结构之链表基本知识\Debug\数据结构之链表介绍.exe
+  数据结构之链表实现.vcxproj -> C:\Users\S2318\Documents\Visual Studio 2015\Projects\数据结构之链表基本知识\Debug\数据结构之链表介绍.pdb (Full PDB)
