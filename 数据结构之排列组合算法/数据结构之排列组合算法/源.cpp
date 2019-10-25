@@ -17,6 +17,7 @@ void Pemutations(char *p, const int k, const int m)
 	//swap(p[0], p[2]);
 	//Pemutations(p, 1, 2);
 	//swap(p[0], p[2]);
+	//µ±k=mµÄÊ±ºòÍ£Ö¹µÝ¹é
 	if (k == m)
 	{
 		for (int i = 0; i <=m; i++)
@@ -37,8 +38,8 @@ void Pemutations(char *p, const int k, const int m)
 }
 int main()
 {
-	char s[] = "abc";
-	Pemutations(s, 0, 2);
+	char s[] = "abcd";
+	Pemutations(s, 0, 3);
 	system("pause");
 	return 0;
 }

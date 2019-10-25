@@ -6,7 +6,7 @@ using namespace std;
 
 long JieCheng(int n);
 
-//递归算法
+//递归算法 自己调用自己
 long JieCheng(int n)
 {
 	if (n == 0)
@@ -16,7 +16,7 @@ long JieCheng(int n)
 }
 int main()
 {
-	cout << JieCheng(5);
+	cout << JieCheng(10);
 	cin.get();
 	return 0;
 }

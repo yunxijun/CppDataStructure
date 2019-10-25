@@ -4,9 +4,9 @@ using namespace std;
 int BinarySearch(int *a, const int x, const int n);
 int main()
 {
-	int x[] = { 1,2,3,4,5,6,7,8,9,10 };
-	int res,num=7;
-	res = BinarySearch(x, 7, num);
+	int x[] = { 0,1,2,4,5,6,7,7,7,7,7,7,8,9,10 };
+	int res,num=11;
+	res = BinarySearch(x, 7, 10);
 	if (res < 0)
 		cout << "没找到" << endl;
 	else
@@ -14,7 +14,7 @@ int main()
 	cin.get();
 	return 0;
 }
-//二分查找算法速度很快，但是要求数据排序
+//二分查找算法速度很快，但是要求数据排序,无重复数据，否则只能找出一个
 int BinarySearch(int *a, const int x, const int n)
 {
 	int low, high, mid;
@@ -22,6 +22,7 @@ int BinarySearch(int *a, const int x, const int n)
 	while (low<=high)
 	{
 		mid = (low + high) / 2;
+		cout << mid << endl;
 		if (a[mid]==x)
 		{
 			return mid;
